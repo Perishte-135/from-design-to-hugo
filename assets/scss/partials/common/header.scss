@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+  background-color: rgba(0, 0, 0, .81);
+  z-index: 99;
+  height: 120px;
+}
+
+.header-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  align-self: flex-start;
+  color: #F2CCB7;
+  font-family: "Prata";
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  background: #A80000;
+}
+
+.header-nav {
+  display: flex;
+  gap: 25px;
+
+  &-item {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 24px;
+  }
+
+}
